@@ -15,8 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="CAM.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CAM_Private.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAM_Private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
