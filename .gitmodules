@@ -1,0 +1,6 @@
+[submodule "eigen"]
+	path = eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "polynomial"]
+	path = polynomial
+	url = git@github.com:jonathanventura/polynomial.git
