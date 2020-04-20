@@ -17,10 +17,6 @@ int main()
 	fout.open("data.csv",std::ios_base::out);
 	for(auto i = 0.0;i < 10.0;i += 0.01)
 	{
-<<<<<<< HEAD
 		fout << i << ',' << cam.eval(i) << ',' << cam.eval(i,1) << std::endl;
-=======
-		fout << i << ',' << cam.eval(i) << std::endl;
->>>>>>> 528f77a... 完成
 	}
 }

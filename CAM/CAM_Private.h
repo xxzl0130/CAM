@@ -19,11 +19,7 @@ public:
 	 * \param y y坐标
 	 * \param order 阶数，即y是几阶导数
 	 */
-<<<<<<< HEAD
 	void addPoint(double x, double y, unsigned order = 0);
-=======
-	void addPoint(double x, double y, int order = 0);
->>>>>>> 528f77a... 瀹屾垚
 	/**
 	 * \brief 求解曲线
 	 */
@@ -44,18 +40,5 @@ private:
 	bool solved_;
 
 	void makeDiff(unsigned order);
-=======
-	 * \brief 求解x处的值
-	 * \param x x
-	 * \return f(x)
-	 */
-	double eval(double x);
-private:
-	typedef std::pair<double, double> Point;
-	std::map<int, std::vector<Point>> points_;
-	Polynomial polynomial_;
-	int nPoints_;
-	bool solved_;
->>>>>>> 528f77a... 瀹屾垚
 };
 
